@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <div class="container">
+                <header>
+                    <a href="/index.html">
+                        <img src="assets/logo.svg" width="170px" height="45px"/>
+                    </a>
+                </header>
+                <div class="container2">
+                    <form action="">
+                        <div class="set">
+                            <div class="login">
+                                <img src="assets/log-in.svg" alt="Ícone de Login"/>
+                                <h1>Faça seu login</h1>
+        
+                            </div>
+                            <h2>Entre com suas informações de cadastro.</h2>
+                        </div>
+                            
+                        <div class="input-email">
+                            <label for="email">E-mail</label>
+                            <div class="group">
+                                <img src="assets/mail-normal.svg" alt="Ícone de email" id="box-email">
+                                <input type="text" id="email" name="email" placeholder="Digite seu e-mail"/>
+                                
+                            </div>
+                        </div>
+                        <div class="input-password">
+                            <label for="password">Senha</label>
+                            <div class="group">
+                                <img src="assets/lock.svg" alt="Ícone de cadeado" id="box-password"/>
+                                <input type="password" step="0.01" id="password" name="password" placeholder="Digite sua senha">
+                                <img src="assets/eye.svg" alt="Ícone de Olho"/>
+                            </div>
+
+                        </div>
+                        <div class="form-actions">
+                            <div>
+                                <input type="checkbox" id="remember-me" name="remember-me">
+                                <span class="checkmark" for="remember-me"></span>
+                                <label for="remember-me">Lembre-me</label>
+                    
+                            </div>
+                            <a href="#" class="recover-pass">Esqueci minha senha</a>
+                        </div>
+                        <button>
+                            <span><strong>Entrar</strong></span>
+                        </button>
+                        <a href="#" class="register">Não tem uma conta? Resgistre-se</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
